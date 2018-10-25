@@ -29,7 +29,7 @@ header {
 	display: none;
 }
 
-.accordion button {
+.accordion button:not(#one-btn):not(#two-btn):not(#three-btn):not(#four-btn) {
 	border: 1px solid #fff;
 }
 
