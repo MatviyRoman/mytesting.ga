@@ -29,6 +29,10 @@ header {
 	display: none;
 }
 
+.accordion button {
+	border: 1px solid #fff;
+}
+
 footer {
 	margin-top: 50px;
 	margin-bottom: 50px;

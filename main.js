@@ -1,9 +1,21 @@
 $(window).on('load', function(){
 	$('#one-btn, #two-btn, #three-btn, #four-btn').click(function(){
-		$('.other-one-links').hide();
-		$('.other-two-links').hide();
-		$('.other-three-links').hide();
-		$('.other-four-links').hide();
+		$('.one-one-links').hide();
+		$('.one-two-links').hide();
+		$('.one-three-links').hide();
+		$('.one-four-links').hide();
+		$('.two-one-links').hide();
+		$('.two-two-links').hide();
+		$('.two-three-links').hide();
+		$('.two-four-links').hide();
+		$('.three-one-links').hide();
+		$('.three-two-links').hide();
+		$('.three-three-links').hide();
+		$('.three-four-links').hide();
+		$('.four-one-links').hide();
+		$('.four-two-links').hide();
+		$('.four-three-links').hide();
+		$('.four-four-links').hide();
 	});
 	$('#one-btn').click(function(){
 		$('.one-links').slideToggle();
