@@ -7,9 +7,29 @@ header {
 	text-align: center;
 }
 
-header .one-links,
-header .two-links,
-header .three-links,
-header .four-links {
+.accordion .one-links,
+.accordion .two-links,
+.accordion .three-links,
+.accordion .four-links {
 	display: none;
+}
+
+.accordion .one-one-links,
+.accordion .one-two-links,
+.accordion .one-three-links,
+.accordion .two-one-links,
+.accordion .two-two-links,
+.accordion .two-three-links,
+.accordion .three-one-links,
+.accordion .three-two-links,
+.accordion .three-three-links,
+.accordion .four-one-links,
+.accordion .four-two-links,
+.accordion .four-three-links {
+	display: none;
+}
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
