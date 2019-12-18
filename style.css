@@ -1,10 +1,30 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
 }
 
 header {
 	text-align: center;
+	vertical-align: middle;
+}
+
+.hello {
+	margin: 2em 0 2em 0;
+	padding: 1em 0 1em 0;
+	border: 2px dotted #f00;
 }
 
 .accordion .one-links,

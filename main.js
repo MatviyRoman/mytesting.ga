@@ -102,3 +102,81 @@ $(window).on('load', function(){
 		$('.four-three-links').slideToggle();
 	})
 });
+
+
+//Referrer
+var referrer;
+if (referrer = '')
+{
+	referrer = document.referrer;
+} else {
+var referrer = 'http://matviy.pp.ua';
+}
+
+document.getElementById("ref").innerHTML = '<a href="' + referrer + '">' + referrer + '</a>';
+console.log(referrer);
+
+
+
+///Hello if else
+
+let greeting, date = new Date(), time = date.getHours();
+console.log(time);
+
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+
+console.log(greeting);
+document.getElementById("hello").innerHTML = greeting;
+
+
+//Hello switch
+
+// let greeting, date = new Date(), time = date.getHours();
+// console.log(time);
+
+switch (true) {
+  case (time < 10):
+    hello = "Good morning";
+    break;
+  case (time < 20):
+    hello = "Good day";
+    break;
+  default:
+    hello = "Good evening";
+}
+console.log(hello + ' ' + time);
+
+
+
+//day weak
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+
+document.getElementById("day").innerHTML = 'Today is\n' + day;
+console.log(day);
